@@ -8,7 +8,7 @@ nav {
     margin-left: "26%";
 }
 
-#login_btn:hover {
+#login_btn:hover{
     background-color: white;
     color: black;
 }
@@ -22,4 +22,30 @@ nav {
     background-color: black;
     border-color: white;
     color: white;
+}
+
+#dropdownMenuButton {
+    background-color: black;
+    color: white;
+    font-size: "15px";
+    margin-left: "26%";
+}
+
+#dropdownMenuButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+#list {
+    color: "white";
 }

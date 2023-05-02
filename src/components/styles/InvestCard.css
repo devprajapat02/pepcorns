@@ -1,0 +1,4 @@
+#hovernow:hover {
+    box-shadow: 0 5px 15px rgba(197, 197, 197, 0.785);
+    cursor: pointer;
+  }
